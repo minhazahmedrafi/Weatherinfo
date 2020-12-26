@@ -1,0 +1,634 @@
+/* Medium devices (landscape tablets, 768px and up) */
+
+ @media only screen and (max-width: 768px) {
+    header{
+        width: 100%;
+        height: 500px;
+    }
+        .menu_area{
+            margin-right: -220px;
+            float: none;
+            padding: 0;
+        }
+        .content_left {
+            margin-left: 20px;
+            width: 340px;
+            margin-top: 10%;
+        }
+        .content_left h1 {
+            color: #fff;
+            margin-bottom: 20px;
+            font-family: arial;
+            font-size: 35px;
+        }
+        .content_left p {
+            margin-bottom: 40px;
+            font-size: 18px;
+        }
+        .content_right{
+            width: 300px;
+            float: none;
+        }
+        .content_right img {
+            margin-top: -80%;
+            width: 140px;
+            margin-left: 145%;
+            border-radius: 15px;
+        }
+        button#downloads {
+            padding: 12px 20px;
+            border-radius: 5px;
+            color: #fff;
+            font-weight: 700;
+            transition: 0.3s;
+        }
+        
+        button#features {
+        background: #4466c9;
+        padding: 12px 28px;
+        font-weight: 600;
+        border-radius: 5px;
+        color: #fff;
+        margin-left: 10px;
+        transition: 0.3s;
+    }
+        .menu_area{
+        width: 640px;
+        overflow: hidden;
+        float: right;
+        margin-top: -30px;
+        margin-right: 25%;
+    }
+        .menu_area ul li a{
+        margin-left: 30px;
+        font-size: 18px;
+    }
+    .social {
+        width: 196px;
+        float: right;
+        margin-top: -28px;
+        margin-right: 28%;
+    }
+    .social a {
+        margin-left: 20px;
+        font-size: 16px;
+    }
+    section#features {
+        height: 200px;
+    }
+        .sec_title{
+        text-align: center;
+        margin-bottom: 10%;
+    }
+    .sec_title{
+        margin-bottom: 10%;
+        margin-right: 30%;
+    }
+    .sec_title h2{
+        font-size: 25px;
+        text-transform: uppercase;
+        color: #648cff;
+    }
+    .sec_title p{
+        color: #999999;
+        font-size: 17px;
+        margin-top: 10px;
+    }
+    .main_icon {
+        width: 60px;
+        float: left;
+        font-size: 40px;
+        color: #fc7c58;
+    }
+    .icon_title {
+        float: left;
+        width: 150px;
+        line-height: 23px;
+    }
+    .single_icon{
+        width: 220px;
+        float: left;
+        margin-left: 13px;
+    }
+    .icon_title h2 {
+        font-size: 18px;
+        margin-bottom: 10px;
+        color: #353854;
+    }
+    
+    .icon_title p {
+        font-size: 14px;
+        color: #b4b4b4;
+    }
+    .widgets_img img {
+        margin: 0px auto;
+        margin-left: 140px;
+        width: 44%;
+        margin-top: -20px;
+    }
+    section#widgets{
+        height: 450px;
+    }
+    section#screenshot {
+        height: 450px;
+    }
+    .about_screenshot img {
+        border-radius: 15px;
+        margin-left: 98px;
+        float: left;
+        width: 170px;
+    }
+    .screenshot_content {
+        float: left;
+        width: 260px;
+        line-height: 25px;
+        margin-left: 10%;
+        margin-top: 8%;
+    }
+    
+    .weather_icon i {
+        color: #648cff;
+        font-size: 50px;
+        margin-bottom: 25px;
+    }
+    
+    .weather_content h2 {
+        font-size: 24px;
+        color: #648cff;
+        text-transform: uppercase;
+        margin-bottom: 5px;
+    }
+    .weather_content p {
+        font-size: 15px;
+        color: #353854;
+    }
+    section#screenshot_two{
+        height: 280px;
+    }
+    section#screenshot_three{
+        height: 350px;
+    }
+    .single_chart{
+        width: 200px;
+        line-height: 25px;
+        float: left;
+        margin-left: 130px;
+        margin-top: 65px;
+    }
+    
+    .single_chart{
+        width: 350px;
+        line-height: 20px;
+        float: left;
+        margin-left: 30px;
+        margin-top: 65px;
+    }
+    .single_chart p{
+        font-size: 17px;
+        color: #353854;
+        width: 325px;
+    }
+    .single_chart h5{
+        color: #353854cb;
+        margin-top: 10px;
+    }
+    .single_chart i{
+        color: #648cff;
+        font-size: 22px;
+    }
+    .people_icons i{
+        margin-bottom: 10px;
+    }
+    .people_icons_one i{
+        float: left;
+    }
+    .single_chart:first-child{
+        margin-top: 0px;
+    }
+    #people_saying .sec_title {
+        margin-bottom: 0px;
+    }
+    #people_saying{
+        height: 400px;
+    }
+    
+    
+    
+    
+    
+    
+    
+    section#download_app {
+        height: 100px;
+        background: #648cff;
+    }
+    .download_sector {
+        width: 350px;
+        line-height: 22px;
+        margin-top: -19px;
+        margin-left: 10px;
+    }
+    
+    .download_sector h2 {
+        font-size: 20px;
+        text-transform: uppercase;
+        margin-bottom: 15px;
+        color: #fff;
+    }
+    
+    .download_sector p {
+        width: 337px;
+        font-size: 17px;
+        color: #fff;
+        margin-bottom: 20px;
+    }
+    button#app_store {
+        border: none;
+        padding: 12px 22px;
+        border-radius: 5px;
+        background: #000;
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+    button#app_store i{
+        color: #fff;
+        font-size: 15px;
+        margin-right: 10px;
+    }
+    button#app_store a{
+        text-decoration: none;
+        color: #fff;
+        font-size: 15px;
+    }
+    
+    button#google_play {
+        border: none;
+        padding: 12px 10px;
+        border-radius: 5px;
+        margin-left: 10px;
+        transition: all 0.3s ease;
+        background: #000;
+    }
+    
+    #footer_main{
+        height: 100px;
+        background-color: #353854;
+    }
+    footer#footer_main {
+        padding: 20px;
+    }
+    footer#footer_main {
+        padding: 50px;
+    }
+    button#google_play i{
+        color: #fff;
+        font-size: 15px;
+        margin-right: 10px;
+    }
+    button#google_play a{
+        text-decoration: none;
+        color: #fff;
+        font-size: 15px;
+    }
+    .image_right{
+        width: 260px;
+        float: right;
+    }
+    .image_right img {
+        margin-top: -70%;
+        width: 132%;
+        margin-left: -163%;
+    }
+    .copyright{
+        float: left;
+    }
+    .copyright p {
+        margin-top: 40px;
+        color: #565b87;
+        font-size: 15px;
+        margin-left: 115px;
+    }
+     footer#footer_main .main_bar {
+        border-bottom: 1px solid #434769;
+    }
+    #footer_main .logo_menu img {
+        margin-top: 0px;
+    }
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    header{
+    width: 100%;
+    height: 500px;
+}
+    .menu_area{
+        margin-right: -220px;
+        float: none;
+        padding: 0;
+    }
+    .content_left {
+        width: 250px;
+        margin-top: 12%;
+    }
+    .content_left h1 {
+        color: #fff;
+        margin-bottom: 20px;
+        font-family: arial;
+        font-size: 30px;
+    }
+    .content_left p {
+        margin-bottom: 40px;
+        font-size: 15px;
+    }
+    .content_right{
+        width: 300px;
+        float: none;
+    }
+    .content_right img {
+        margin-top: -80%;
+        width: 120px;
+        margin-left: 120%;
+        border-radius: 15px;
+    }
+    button#downloads {
+        padding: 10px 15px;
+        border-radius: 5px;
+        color: #fff;
+        font-weight: 700;
+        transition: 0.3s;
+    }
+    
+    button#features {
+    background: #4466c9;
+    padding: 10px 25px;
+    font-weight: 600;
+    border-radius: 5px;
+    color: #fff;
+    margin-left: 10px;
+    transition: 0.3s;
+}
+    .menu_area{
+    width: 639px;
+    overflow: hidden;
+    float: right;
+    margin-top: -24px;
+    margin-right: 27%;
+}
+    .menu_area ul li a{
+    margin-left: 20px;
+    font-size: 12px;
+}
+.social {
+    width: 196px;
+    float: right;
+    margin-top: -26px;
+    margin-right: 42%;
+}
+.social a {
+    margin-left: 10px;
+    font-size: 15px;
+}
+section#features {
+    height: 200px;
+}
+    .sec_title{
+    text-align: center;
+    margin-bottom: 10%;
+}
+.sec_title{
+    margin-bottom: 5%;
+    margin-right: 45%;
+}
+.sec_title h2{
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #648cff;
+}
+.sec_title p{
+    color: #999999;
+    font-size: 12px;
+    margin-top: 10px;
+}
+.main_icon {
+    width: 40px;
+    float: left;
+    font-size: 30px;
+    color: #fc7c58;
+}
+.icon_title {
+    float: left;
+    width: 150px;
+    line-height: 23px;
+}
+.single_icon {
+    width: 180px;
+    float: left;
+    margin-left: 13px;
+}
+.icon_title h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #353854;
+}
+
+.icon_title p {
+    font-size: 14px;
+    color: #b4b4b4;
+}
+.widgets_img img {
+    margin: 0px auto;
+    margin-left: 140px;
+    width: 30%;
+    margin-top: -20px;
+}
+section#widgets{
+    height: 300px;
+}
+section#screenshot {
+    height: 280px;
+}
+.about_screenshot img {
+    border-radius: 15px;
+    margin-left: 50px;
+    float: left;
+    width: 120px;
+}
+.screenshot_content {
+    float: left;
+    width: 250px;
+    line-height: 25px;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+.weather_icon i {
+    color: #648cff;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.weather_content h2 {
+    font-size: 16px;
+    color: #648cff;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+.weather_content p {
+    font-size: 12px;
+    color: #353854;
+}
+section#screenshot_two{
+    height: 180px;
+}
+section#screenshot_three{
+    height: 200px;
+
+}
+.single_chart{
+    width: 200px;
+    line-height: 25px;
+    float: left;
+    margin-left: 130px;
+    margin-top: 65px;
+}
+
+.single_chart{
+    width: 350px;
+    line-height: 20px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 50px;
+}
+.single_chart p{
+    font-size: 12px;
+    color: #353854;
+    width: 200px;
+}
+.single_chart h5{
+    color: #353854cb;
+    margin-top: 10px;
+}
+.single_chart i{
+    color: #648cff;
+    font-size: 15px;
+}
+.people_icons i{
+    margin-bottom: 10px;
+}
+.people_icons_one i{
+    float: left;
+}
+.single_chart:first-child{
+    margin-top: 0px;
+}
+#people_saying .sec_title {
+    margin-bottom: 0px;
+}
+#people_saying{
+    height: 400px;
+}
+
+
+
+
+
+
+
+section#download_app {
+    height: 100px;
+    background: #648cff;
+}
+.download_sector {
+    width: 350px;
+    line-height: 22px;
+    margin-top: -19px;
+}
+
+.download_sector h2 {
+    font-size: 15px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+.download_sector p {
+    width: 250px;
+    font-size: 15px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+button#app_store {
+    border: none;
+    padding: 12px 15px;
+    border-radius: 5px;
+    background: #000;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+button#app_store i{
+    color: #fff;
+    font-size: 15px;
+    margin-right: 10px;
+}
+button#app_store a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+}
+
+button#google_play {
+    border: none;
+    padding: 12px 10px;
+    border-radius: 5px;
+    margin-left: 10px;
+    transition: all 0.3s ease;
+    background: #000;
+}
+
+#footer_main{
+    height: 100px;
+    background-color: #353854;
+}
+footer#footer_main {
+    padding: 20px;
+}
+footer#footer_main {
+    padding: 50px;
+}
+button#google_play i{
+    color: #fff;
+    font-size: 15px;
+    margin-right: 10px;
+}
+button#google_play a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+}
+.image_right{
+    width: 260px;
+    float: right;
+}
+.image_right img {
+    margin-top: -70%;
+    width: 108%;
+    margin-left: -205%;
+}
+.copyright{
+    float: left;
+}
+.copyright p {
+    margin-top: 50px;
+    color: #565b87;
+    font-size: 10px;
+    margin-left: 100px;
+}
+ footer#footer_main .main_bar {
+    border-bottom: 1px solid #434769;
+}
+#footer_main .logo_menu img {
+    margin-top: 0px;
+}
+}
